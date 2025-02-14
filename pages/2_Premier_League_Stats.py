@@ -93,7 +93,7 @@ match a:
         else:
             st.write("No players found with the given criteria.")
     case "20-21":
-        df = pd.read_csv('data/pl/players_la_epl_20-21.csv')
+        df = pd.read_csv('data/pl/players_epl_20-21.csv')
 
         team = st.selectbox("Select a team", df['team_title'].sort_values().unique(), index=None)
         player=st.selectbox("Select a player", df[df['team_title'] == team]['player_name'].sort_values().unique(), index=None)
