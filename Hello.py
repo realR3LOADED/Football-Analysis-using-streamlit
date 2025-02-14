@@ -5,7 +5,7 @@ st.set_page_config(
     page_icon="👋",
 )
 
-st.write("# Welcome to our website👋")
+st.write("# Welcome👋")
 
 st.sidebar.success("Select a objective above!")
 
